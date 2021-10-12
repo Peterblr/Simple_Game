@@ -13,7 +13,7 @@ namespace Simple_Game
     public partial class Form1 : Form
     {
 
-        int pipeSpeed = 5;
+        int pipeSpeed = 15;
         int gravity = 10;
         int score = 0;
 
@@ -71,9 +71,9 @@ namespace Simple_Game
                 endGame();
             }
 
-            if (score %2 == 0)
+            if (score > 5)
             {
-                pipeSpeed += 1;
+                pipeSpeed = 22;
             }            
         }
 

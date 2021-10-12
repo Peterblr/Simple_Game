@@ -59,7 +59,7 @@ namespace Simple_Game
             this.pipeTop.Image = global::Simple_Game.Properties.Resources.pipedown;
             this.pipeTop.Location = new System.Drawing.Point(453, -3);
             this.pipeTop.Name = "pipeTop";
-            this.pipeTop.Size = new System.Drawing.Size(100, 155);
+            this.pipeTop.Size = new System.Drawing.Size(100, 183);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeTop.TabIndex = 1;
             this.pipeTop.TabStop = false;
@@ -67,9 +67,9 @@ namespace Simple_Game
             // pipeBottom
             // 
             this.pipeBottom.Image = global::Simple_Game.Properties.Resources.pipe;
-            this.pipeBottom.Location = new System.Drawing.Point(453, 314);
+            this.pipeBottom.Location = new System.Drawing.Point(420, 314);
             this.pipeBottom.Name = "pipeBottom";
-            this.pipeBottom.Size = new System.Drawing.Size(100, 164);
+            this.pipeBottom.Size = new System.Drawing.Size(100, 181);
             this.pipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeBottom.TabIndex = 2;
             this.pipeBottom.TabStop = false;
@@ -103,6 +103,7 @@ namespace Simple_Game
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Beige;
             this.label1.Location = new System.Drawing.Point(-4, -3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 38);

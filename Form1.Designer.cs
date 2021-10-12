@@ -46,9 +46,9 @@ namespace Simple_Game
             // bird
             // 
             this.bird.Image = global::Simple_Game.Properties.Resources.bird;
-            this.bird.Location = new System.Drawing.Point(94, 198);
+            this.bird.Location = new System.Drawing.Point(3, 50);
             this.bird.Name = "bird";
-            this.bird.Size = new System.Drawing.Size(95, 75);
+            this.bird.Size = new System.Drawing.Size(77, 75);
             this.bird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bird.TabIndex = 0;
             this.bird.TabStop = false;
@@ -57,7 +57,7 @@ namespace Simple_Game
             // pipeTop
             // 
             this.pipeTop.Image = global::Simple_Game.Properties.Resources.pipedown;
-            this.pipeTop.Location = new System.Drawing.Point(453, -3);
+            this.pipeTop.Location = new System.Drawing.Point(531, -3);
             this.pipeTop.Name = "pipeTop";
             this.pipeTop.Size = new System.Drawing.Size(100, 183);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -67,7 +67,7 @@ namespace Simple_Game
             // pipeBottom
             // 
             this.pipeBottom.Image = global::Simple_Game.Properties.Resources.pipe;
-            this.pipeBottom.Location = new System.Drawing.Point(420, 314);
+            this.pipeBottom.Location = new System.Drawing.Point(389, 314);
             this.pipeBottom.Name = "pipeBottom";
             this.pipeBottom.Size = new System.Drawing.Size(100, 181);
             this.pipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
